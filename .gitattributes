@@ -12,6 +12,8 @@ release/** linguist-vendored=true
 *.pyz linguist-vendored=true
 *.zip linguist-vendored=true
 *.tar.gz linguist-vendored=true
+*.toc linguist-vendored=true
+*.pyc linguist-vendored=true
 
 # Ignorar documents generats i pàgines HTML/TeX
 docs/** linguist-vendored=true
