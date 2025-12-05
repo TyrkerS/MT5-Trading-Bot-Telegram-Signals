@@ -1,0 +1,17 @@
+# Marcar binaris generats i carpetes d'IDE com "vendored" per Linguist
+# Això fa que GitHub NO compti aquests fitxers en el càlcul de llenguatge
+
+# Carpetes de build / distribució
+dist/** linguist-vendored=true
+build/** linguist-vendored=true
+release/** linguist-vendored=true
+
+# Fitxers binaris pesats
+*.exe linguist-vendored=true
+*.pkg linguist-vendored=true
+*.pyz linguist-vendored=true
+*.zip linguist-vendored=true
+*.tar.gz linguist-vendored=true
+
+# Carpetes d'IDE
+.idea/** linguist-vendored=true
