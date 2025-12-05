@@ -13,5 +13,16 @@ release/** linguist-vendored=true
 *.zip linguist-vendored=true
 *.tar.gz linguist-vendored=true
 
+# Ignorar documents generats i pàgines HTML/TeX
+docs/** linguist-vendored=true
+site/** linguist-vendored=true
+html/** linguist-vendored=true
+public/** linguist-vendored=true
+*.html linguist-vendored=true
+*.htm linguist-vendored=true
+*.tex linguist-vendored=true
+*.sty linguist-vendored=true
+*.bib linguist-vendored=true
+
 # Carpetes d'IDE
 .idea/** linguist-vendored=true
