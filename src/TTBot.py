@@ -5,7 +5,7 @@ import asyncio
 from datetime import datetime, timezone, timedelta
 from telethon import TelegramClient, events
 
-# --- CONFIGURATION ---
+# ---- CONFIGURATION ----
 with open("config.json") as f:
     config = json.load(f)
 
